@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: rgba(255,255,255,0.2);
+          padding: 20px;
+          margin: 25px;
+          color: white;
+        }
+    </style>
+
+  </head>
+  <body>
+    <div class="header">
+      <img src="oie_transparent.png" />
+      <a href="index.html"  class="button"><div>Home</div></a>
+      <a href="contactUs.html" class="button2"><div>Contact us</div></a>
+      <a href="movies.html" class="button3"><div>Movies</div></a>
+      <a href="games.html" class="button4"><div>Games</div></a>
+      <a href="" class="button5"><div>Web Series</div></a>
+      <a href="anime.html" class="button6"><div>Anime</div></a>
+    </div>
+    <div class="top10Title">
+        Fill This form to give Feedback
+    </div>
+    <div class="container">
+        <form action="contactUs.html">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+   <div class="footer">
+    © Copyright 2021-2022.<br>
+    <i>All rights reserved.
+        <a href="faq.html" style="text-align: right; color: rgb(255, 255, 255)">FAQ</a>  <a href="feedback.html" style="color: rgb(255, 255, 255)">Feedback</a>
+    </i>
+    <br>This website is made for Assignment purpose.
+   </div>
+</html>
