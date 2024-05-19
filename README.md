@@ -1,2 +1,2 @@
 # Top10
-Static web page
+Top 10 is a static web page developed for SWPD (Static Web Page Development) subject. 
